@@ -50,6 +50,7 @@ If you wish to contribute to the project, feel free to submit a pull request.
 
 This project is distributed under the MIT License. 
 
+# SCREENSHOT
 
 ![App Screenshot](Screenshot_20230904_032639.png)
 
