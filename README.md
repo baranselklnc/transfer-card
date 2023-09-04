@@ -48,3 +48,7 @@ If you wish to contribute to the project, feel free to submit a pull request.
 ## License
 
 This project is distributed under the MIT License. 
+
+
+![App Screenshot](Screenshot_20230904_032639.png)
+
