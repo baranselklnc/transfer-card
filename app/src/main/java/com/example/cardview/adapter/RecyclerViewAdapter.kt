@@ -9,8 +9,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.cardview.R
 import com.example.cardview.model.FootballModel
+import com.example.cardview.view.MainActivity
 
-class RecyclerViewAdapter (private val footbaList:ArrayList<FootballModel>):RecyclerView.Adapter<RecyclerViewAdapter.RowHolder>(){
+class RecyclerViewAdapter(
+    private val footbaList: ArrayList<FootballModel>,
+    mainActivity: MainActivity
+):RecyclerView.Adapter<RecyclerViewAdapter.RowHolder>(){
 
     class RowHolder(view:View):RecyclerView.ViewHolder(view){
 
