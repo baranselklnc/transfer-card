@@ -15,7 +15,8 @@ To run the application in a local development environment, follow these steps:
 
 1. Clone or download the project.
 2. Update your Gradle file to install the required dependencies.
-3.  Access the JSON file [here](https://raw.githubusercontent.com/baranselklnc/fakejson/master/fakeapiFootball.json).
+3.  Access the JSON file [here](https://raw.githubusercontent.com/baranselklnc/fakejson/master/fakeapiFootball.json){:target="_blank"}.
+
 4. Run the application on an Android emulator or physical device.
 
 
