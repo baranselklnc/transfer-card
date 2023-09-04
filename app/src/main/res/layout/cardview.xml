@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -10,7 +11,9 @@
         android:layout_margin="16dp"
         android:elevation="4dp"
         android:radius="8dp"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="4dp"
+        >
 
         <!-- İçeriğinizi CardView içine yerleştirin -->
         <LinearLayout
@@ -24,6 +27,8 @@
                 android:id="@+id/textPlayer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -31,13 +36,14 @@
                 android:id="@+id/textTeam"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:textSize="14sp" />
         </LinearLayout>
 
         <ImageView
             android:id="@+id/playerPhoto"
             android:layout_width="74dp"
-            android:layout_height="77dp"
-           android:layout_marginStart="275dp"/>
+            android:layout_height="match_parent"
+            android:layout_marginStart="275dp" />
     </androidx.cardview.widget.CardView>
 </RelativeLayout>
